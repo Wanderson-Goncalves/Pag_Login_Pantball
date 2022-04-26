@@ -1,0 +1,48 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+main {
+    min-height: 100vh;
+    background-color: var(--Azul-meia-noite);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+
+    font-family: var(--familia-corpo);
+    color: var(--branco);
+    background-color: var(--azul-magenta);
+    display: flex;
+    padding: 3.313rem 2.875rem;
+    box-shadow: 10px 10px 20px #14145a;
+}
+
+.card {
+    display: flex;
+    width: 541px;
+    height: 693px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.botao {
+    width: 276px;
+    height: 40px;
+    text-align: center;
+    color: var(--branco);
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: var(--peso-botao);
+    background-color: var(--amrelo-escuro-pantone);
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.15);
+
+}
